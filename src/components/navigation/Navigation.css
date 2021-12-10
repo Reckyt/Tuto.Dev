@@ -1,0 +1,11 @@
+.container--nav {
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 50px;
+    background-color: #24292f83;
+}
+
+.container--nav h1 {
+    text-align: center;
+}

@@ -16,4 +16,4 @@ function Card({ card }) {
     )
 }
 
-export { Card }
+export { Card };

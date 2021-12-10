@@ -1,12 +1,12 @@
-import navigation from '../pictures/router.jpg'
+import navigation from '../pictures/router/router.jpg'
 import propsTypes from '../pictures/props-types.jpg'
 import typeScript from '../pictures/typeScript.jpg'
-import flexbox from '../pictures/flexbox.webp'
+import flexbox from '../pictures/flexbox/flexbox.webp'
 
 export const cardsData = [
     {
         id: 0,
-        title: 'Mise en place d\'un système de routing',
+        title: 'Mise en place d\'un système de routing avec react-router-dom',
         picture: navigation,
         path: 'router',
     },
