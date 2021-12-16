@@ -1,0 +1,43 @@
+.card-display {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 0.1px solid white;
+    border-radius: 20px;
+    background-color: #30393D;
+}
+
+.card-display hr {
+    color: #2375FF;
+}
+
+.header-display {
+    display: flex;
+    align-items: center;
+}
+
+.header-display h4 {
+    color: #FECA3E;
+}
+
+.header-display h4, .header-display p {
+width: 50%;
+display: flex;
+justify-content: center;
+}
+
+ul li {
+    /* Bullet color */
+    color: #2375FF;
+}
+
+.list-display {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-display img {
+    width: 150px;
+    /* margin: 10px; */
+}

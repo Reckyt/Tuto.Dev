@@ -1,0 +1,20 @@
+.container-flexbox {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: #66B4F7;
+}
+
+.container-flexbox h1 {
+    color: #F99825;
+    margin: 10px;
+}
+
+
+.container-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

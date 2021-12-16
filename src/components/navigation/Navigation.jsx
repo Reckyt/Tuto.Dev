@@ -2,13 +2,14 @@ import React from 'react'
 
 import archi from '../../assets/pictures/router/architecture.png'
 import imp from '../../assets/pictures/router/impRouter.png'
+import link from '../../assets/pictures/router/link.png'
 
 import "./Navigation.css"
 
 function Navigation() {
 
     return (
-        <div className='container--nav'>
+        <div className='container'>
             <h1>Installation de react-router-dom</h1>
             <div>
                 <ul>
@@ -34,7 +35,9 @@ function Navigation() {
                         <img src={archi} alt="architecture de route" />
                     </li>
                     <li>
-                        <p>Maintenant que les routes sont déclarées, on peut y faire appel. Par exemple dans notre composant <b>Header</b>, on importe <b>Link</b> from <b>'react-router-dom'</b> et on créé notre  </p>
+                        <p>Maintenant que les routes sont déclarées, on peut y faire appel. Par exemple dans notre composant <b>Header</b>, on importe <b>Link</b> from <b>'react-router-dom'</b> et on peut créer notre menu de navigation </p>
+                        <img src={link} alt="lien" />
+                        <p>L'attribut <b>to</b> défini la route sur laquelle va pointer le lien</p>
                     </li>
                 </ul>
             </div>
