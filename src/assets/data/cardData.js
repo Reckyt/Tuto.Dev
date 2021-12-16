@@ -23,9 +23,39 @@ export const cardsData = [
         path: 'typeScript',
     },
     {
-        id: 2,
+        id: 3,
         title: 'Aligner, orienter, ordonner en CSS avec les flexBox',
         picture: flexbox,
         path: 'flexbox',
+    },
+    {
+        id: 4,
+        title: 'Spinning loader',
+        // picture: loader,
+        path: 'loader',
+    },
+    {
+        id: 5,
+        title: 'Informez votre utilisateur avec une barre de progression',
+        // picture: progressBar,
+        path: 'progressBar',
+    },
+    {
+        id: 6,
+        title: 'Un jolie caroussel pour faire défiler vos images',
+        // picture: carousel,
+        path: 'carousel',
+    },
+    {
+        id: 7,
+        title: 'Besoin d\'un formulaire dynamique avec des composants génériques',
+        // picture: form,
+        path: 'form',
+    },
+    {
+        id: 8,
+        title: 'Barre de recherche',
+        // picture: searchBar,
+        path: 'searchBar',
     }
 ]

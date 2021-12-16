@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Card } from '../components'
-import { cardsData } from '../assets/data/cardData'
+import Card from './Card.jsx'
+import { cardsData } from '../../assets/data/cardData'
 
 function Home() {
     return (
@@ -16,4 +16,4 @@ function Home() {
     )
 }
 
-export { Home }
+export default Home;

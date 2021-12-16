@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import '../css/Card.css'
+import '../../css/Card.css'
 
 function Card({ card }) {
     const { title, picture, path } = card
@@ -16,4 +16,4 @@ function Card({ card }) {
     )
 }
 
-export { Card };
+export default Card;
