@@ -1,13 +1,9 @@
-.container-flexbox {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid grey;
-    border-radius: 20px;
+.flexbox {
     background-color: #66B4F7;
 }
 
-.container-flexbox h1 {
+.flexbox h1 {
+    text-align: center;
     color: #F99825;
     margin: 10px;
 }

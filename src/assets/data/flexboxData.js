@@ -46,7 +46,7 @@ export const flexboxData = [
     },
     {
         property: "flex-wrap",
-        description: "Renvoie les items à la ligne",
+        description: "Renvoie les items à la ligne dans le conteneur",
         values:
             [
                 "nowrap", "wrap", "wrap-reverse",

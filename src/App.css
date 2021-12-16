@@ -1,17 +1,18 @@
 .App {
   text-align: center;
 }
+
 * {
   color: white;
+  font-size: 18px;
   text-decoration: none;
 }
 
 .container {
-  border: solid 1px white;
-  border-radius: 20px;
-  padding: 50px;
   margin: 50px;
-  background-color: #24292f83;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
 }
 
 /* 

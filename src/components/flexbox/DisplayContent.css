@@ -21,14 +21,9 @@
 }
 
 .header-display h4, .header-display p {
-width: 50%;
-display: flex;
-justify-content: center;
-}
-
-ul li {
-    /* Bullet color */
-    color: #2375FF;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .list-display {
@@ -37,7 +32,10 @@ ul li {
     justify-content: space-between;
 }
 
+.list-display ul li {
+    color: #2375FF;
+}
+
 .list-display img {
     width: 150px;
-    /* margin: 10px; */
 }

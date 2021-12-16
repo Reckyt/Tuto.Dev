@@ -7,7 +7,7 @@ import './Flexbox.css'
 
 export default function Flexbox() {
     return (
-        <div className="container-flexbox">
+        <div className="container flexbox">
             <h1>Flexbox CSS</h1>
             <div>
                 <p>Avec les Flexbox on ne raisonne plus en <b>block</b> ou en <b>inline</b>, mais en "modèle de boite flexible" dont les 4 possibilités d'arrangements sont :</p>

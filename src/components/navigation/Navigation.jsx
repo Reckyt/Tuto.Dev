@@ -9,16 +9,16 @@ import "./Navigation.css"
 function Navigation() {
 
     return (
-        <div className='container'>
+        <div className='container navigation'>
             <h1>Installation de react-router-dom</h1>
             <div>
                 <ul>
                     <li>
                         <p>
-                            dans le terminal lancer la command line (CLI) : <i>npm install react-router-dom</i>
+                            Dans le terminal lancer la command line (CLI) : <i>npm install react-router-dom</i>
                             <br />
                             <br />
-                            <div style={{ display: 'flex' }}>
+                            <div style={{ display: 'flex', justifyContent: "space-around" }}>
                                 <p style={{ marginRight: 10 }}>
                                     dans le fichier app.js importer cet import :<br />
                                     <b>Routes</b> à remplacer le <b>Switch</b> depuis la version 6 !
@@ -33,6 +33,7 @@ function Navigation() {
                             Dans le render du fichier App.js on peut mettre nos routes ainsi :
                         </p>
                         <img src={archi} alt="architecture de route" />
+                        <p>Le Header étant à l'exterieur des <b>Routes</b>, ilsera présent sur toutes les pages</p>
                     </li>
                     <li>
                         <p>Maintenant que les routes sont déclarées, on peut y faire appel. Par exemple dans notre composant <b>Header</b>, on importe <b>Link</b> from <b>'react-router-dom'</b> et on peut créer notre menu de navigation </p>

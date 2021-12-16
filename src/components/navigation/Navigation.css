@@ -1,3 +1,18 @@
-.h1 {
+.navigation {
+    background-color: #1e0c34;
+  }
+
+.navigation h1 {
     text-align: center;
+    color: #6CD9F6;
+    margin: 10px;
+}
+
+.navigation b {
+    font-size: 20px;
+    color: #6CD9F6;
+}
+
+.navigation li {
+    margin: 50px 0px;
 }
