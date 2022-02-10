@@ -1,0 +1,15 @@
+.form {
+    background-color: #838CAB;
+}
+
+.form h1 {
+    text-align: center;
+    color: #FEFEFE;
+    margin: 10px;
+}
+
+.container-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

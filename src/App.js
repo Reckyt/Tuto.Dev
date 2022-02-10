@@ -17,7 +17,7 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route path='/router' element={<Navigation />} />
         <Route path='/flexbox' element={<Flexbox />} />
-        <Route path='/form' element={<Form />} />
+        {/* <Route path='/form' element={<Form />} /> */}
       </Routes>
     </Router>
   );
