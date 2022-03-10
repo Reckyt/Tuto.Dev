@@ -3,6 +3,7 @@ import propsTypes from '../pictures/props-types.jpg'
 import typeScript from '../pictures/typeScript.jpg'
 import flexbox from '../pictures/flexbox/flexbox.webp'
 import form from '../pictures/form/form.jpg'
+import js from '../pictures/javascript/javascript.jpg'
 
 export const cardsData = [
     {
@@ -28,6 +29,12 @@ export const cardsData = [
         title: 'Aligner, orienter, ordonner en CSS avec les flexBox',
         picture: flexbox,
         path: 'flexbox',
+    },
+    {
+        id: 4,
+        title: 'Comprendre "the weird part" de Javascript',
+        picture: js,
+        path: 'javascript',
     },
     // {
     //     id: 4,

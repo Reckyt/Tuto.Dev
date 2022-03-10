@@ -1,0 +1,17 @@
+.javascript {
+    background-color: #360703;
+    /* justify-content: center; */
+}
+
+.javascript h1 {
+    text-align: center;
+    color: #F4DB1E;
+    margin: 10px;
+}
+
+.container-image-align img {
+    margin: 10px 50px;
+}
+hr {
+    margin: 50px 20px;
+}
