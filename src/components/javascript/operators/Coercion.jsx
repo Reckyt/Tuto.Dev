@@ -51,10 +51,10 @@ export default function Coercion({ javascriptData }) {
             </p>
             <ul>
                 <li>
-                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target='_blank'>précédence et associativité</a>
+                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target='_blank' rel="noopener noreferrer">précédence et associativité</a>
                 </li>
                 <li>
-                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Equality_comparisons_and_sameness" target='_blank'>test d'égalité</a>
+                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Equality_comparisons_and_sameness" target='_blank' rel="noopener noreferrer">test d'égalité</a>
                 </li>
             </ul>
             <hr />

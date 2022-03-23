@@ -1,8 +1,8 @@
 import navigation from '../pictures/router/router.jpg'
-import propsTypes from '../pictures/props-types.jpg'
-import typeScript from '../pictures/typeScript.jpg'
+// import propsTypes from '../pictures/props-types.jpg'
+// import typeScript from '../pictures/typeScript.jpg'
 import flexbox from '../pictures/flexbox/flexbox.webp'
-import form from '../pictures/form/form.jpg'
+// import form from '../pictures/form/form.jpg'
 import js from '../pictures/javascript/javascript.jpg'
 
 export const cardsData = [

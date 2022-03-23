@@ -5,7 +5,7 @@ import Home from './routes/home/Home.jsx'
 import Navigation from './routes/navigation/Navigation.jsx'
 import Flexbox from './routes/flexbox/Flexbox.jsx'
 import Javascript from './routes/javascript/Javascript.jsx'
-import Form from './routes/form/Form.jsx'
+// import Form from './routes/form/Form.jsx'
 import { Header } from './components'
 
 import './App.css';
