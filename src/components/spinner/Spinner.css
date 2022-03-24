@@ -1,0 +1,35 @@
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner>div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.spinner>div:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-top: 5px solid #27D5E8;
+  border-right: 5px solid transparent;
+  animation: spinner 1s ease infinite;
+}
+
+.spinner>p {
+  margin-top: 20px;
+  text-align: center;
+}

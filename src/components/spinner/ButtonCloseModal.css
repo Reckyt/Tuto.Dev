@@ -1,0 +1,11 @@
+.button-close p {
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button-close p:hover {
+    text-decoration: underline;
+}

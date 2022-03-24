@@ -4,6 +4,8 @@ import navigation from '../pictures/router/router.jpg'
 import flexbox from '../pictures/flexbox/flexbox.webp'
 // import form from '../pictures/form/form.jpg'
 import js from '../pictures/javascript/javascript.jpg'
+import exportPdf from '../pictures/exportPdf/exportPdf.jpg'
+import spining from '../pictures/spining/spining.gif'
 
 export const cardsData = [
     {
@@ -36,12 +38,18 @@ export const cardsData = [
         picture: js,
         path: 'javascript',
     },
-    // {
-    //     id: 4,
-    //     title: 'Spinning loader',
-    //     // picture: loader,
-    //     path: 'loader',
-    // },
+    {
+        id: 5,
+        title: 'Comment exporter facilement des datas en PDF',
+        picture: exportPdf,
+        path: 'exportPdf',
+    },
+    {
+        id: 6,
+        title: 'Spining loader',
+        picture: spining,
+        path: 'spinner',
+    },
     // {
     //     id: 5,
     //     title: 'Informez votre utilisateur avec une barre de progression',

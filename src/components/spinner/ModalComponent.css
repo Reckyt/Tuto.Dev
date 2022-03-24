@@ -1,0 +1,28 @@
+.modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal textarea {
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.modal p {
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-right: 10px;
+}

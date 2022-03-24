@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 // import { TextField, IntegerField, DateField, FloatField, EmailField } from '../../components/form/field'
 
-import "./Form.css"
+import './Form.css';
 
 export default function Form() {
     return (
-        <div className='container form'>
+        <div className="container form">
             <h1>Les différents type d'input</h1>
-            <div className='container-input'>
+            <div className="container-input">
                 {/* <TextField title="Précisez" name="contactOriginOther" placeholder="text" /> */}
                 {/* <IntegerField title="Précisez" name="contactOriginOther" placeholder="number" required /> */}
                 {/* <DateField title="Précisez" name="contactOriginOther" placeholder="number" /> */}
@@ -16,5 +16,5 @@ export default function Form() {
                 {/* <EmailField title="Précisez" name="contactOriginOther" placeholder="email" /> */}
             </div>
         </div>
-    )
+    );
 }
